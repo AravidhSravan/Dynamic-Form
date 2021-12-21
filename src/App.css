@@ -1,0 +1,65 @@
+.main{
+  display: flex;
+  width: 45%;
+  height: 65%;
+  margin-left:28%;
+  background-color:#fff;
+  position: absolute;
+  margin-top: 7%;
+}
+
+.nameField{
+  padding: 8px 10px 10px 0;
+  width: 50%;
+  color: #000;
+  font-size: inherit;
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  margin-left: 2%;
+  line-height: 1.4;
+  position:absolute;
+  margin: 7%;
+}
+
+.nameField:focus{
+  outline: none;
+  border-bottom: 3px solid skyblue;
+}
+
+.mailField{
+  margin-top:20%;
+  padding: 8px 10px 10px 0;
+  width: 50%;
+  color: #000;
+  font-size: inherit;
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  margin-left: 7.7%;
+  line-height: 1.4;
+  position:absolute;
+}
+
+.pswdField{
+  font-size: 18px;
+  line-height: 150%;
+  color: #dbdbdb;
+  font-family: Roboto,Arial,sans-serif;
+  letter-spacing: 0;
+  margin-top:4%;
+  margin-left: 4%;
+}
+.submitbtn{
+  width: 51%;
+  height: 10%;
+  margin-top: 50%;
+  position: absolute;
+  margin-left: 6%;
+  background-color: tomato;
+  font-family: Roboto,Arial,sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+}
